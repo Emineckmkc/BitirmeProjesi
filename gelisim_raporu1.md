@@ -12,6 +12,11 @@ MÜHENDİSLİK YÖNETİMİ Bölümü, "Sema YILDIRIM" isimli yüksek lisans öğ
 ### KULLANILACAK TEKNOLOJİLER
 Günümüzde en çok duygu içerikli paylaşımlar içeren platform sosyal medyadır. Bu çalışmada Twitter platformu kullanılacaktır.Türkçe esnek bir dildir ve Twitterda çok fazla krili veri vardır. Temiz veriler elde edebilmek için uzun bir süre Twitter Api'si kullanılarak veriler çekilecektir. Gruplama yöntemleri kullanılacaktır. Kelime yakalama yöntemi; metin sözcüklere göre gruplanacaktır.Metinden dökümandan ya da belgeden özellik çıkartmak için  kelimeler arasındaki uzaklık durumlarını vektörel olarak bulmamıza yarayan algoritma Word2Vec kullanılacaktır. Türkçe cümle parser(ayrıştırıcı) için Zemberek Parser kullanılacaktır. Bu çalışma kapsamında Pyhton programlama dili kullanılacaktır. Veritabanı olarak, SQLite kullanılacaktır. SQLite herhangi bir yazılım veya sunucu gerektirmez, pythonda veritabanı işlemleri için kullanılabilecek bir alternatiftir. NLP bilgileri için Kemal Oflazer'in Turkish Natural Language Processing kitabı kullanılacaktır.
 
+### İŞ BÖLÜMÜ PLANLAMA
+
+![ISBOLUMPLANI-1](https://user-images.githubusercontent.com/55896383/99884269-f598ef80-2c3d-11eb-9a37-ea1cece8e122.jpg)
+![ISBOLUMPLANI-2](https://user-images.githubusercontent.com/55896383/99884271-f6ca1c80-2c3d-11eb-8b66-0dcbabf9e38e.jpg)
+
 ### Hedeflenen Çıktılar
 
 Öncelikle ilk amaçlanan hedef; Twitterdaki verilere en hızlı sorunsuz erişim sağlamak ve toplanan verilerden temiz veriler elde etmektir. Yüklenen verilerden gereksiz bölümler çıkarıldıktan sonra geriye kalan kelimeler,var olan kayıtlara göre pozitif veya negatif duygu içerikli olmak üzere gruplandırılması hedeflenmiştir.Kişilerin  duygularına göre kullandığı kelimeler; güzel, harika, mükemmel gibi kelimeler pozitif duygu içerek kelimelerdir. Kötü, zayıf, korkunç ise negatif duygu içeren kelimelerdir. Kodlamalar için Windows işletim sistemi kullanılacaktır. Projenin olmazsa olmazı; Türkçe bir mentin içerdiği duygunun doğru keşfedilmesidir.Yapılacak çalışmada, tweet metninin içerdiği duyguyu doğru keşfetmek amaçlanmıştır.
