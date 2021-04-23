@@ -17,9 +17,9 @@ Toplanan veriler içinde; tutarsız, tekrarlayan ve eksik veriler mevcut. Daha i
 ### Metinlerin Vektöre Dönüştürülmesi
 
 Etiketli verilerin, vektöre dönüştürülmesi gerekir. Toplanan veri setini csv dosyasından okundu. 
-
-Girdiler(X) : Cümleler,
-Çıktı(Etiket)(Y) : Cümlenin sonundaki etiketler,
+<ol>
+<li> Girdiler(X) : Cümleler, </li>
+<li> Çıktı(Etiket)(Y) : Cümlenin sonundaki etiketler, </li> </ol>
 
 şeklinde ayrıldı. Etiketler, Sckit-Learn kütüphanesinin parçalarından olan Label Encoding, ile metin verileri sayısala dönüştürüldü. Makine öğrenmesi yalnızca sayısal verileri kabul eder. Projede, kullanılmayacak kadar az eğitim verisi mevcut. Çözmek istenen problemle birlikte, kelime düğümlerini öğrenmek yerine önceden hesaplanmış bir gömme alanından yüklendi. Açık kaynaklı bir örnek olarak Türkçe dilinde yazılmış tüm wikipedia  modellerinden eğitilmiş hazır bir model indirildi.Büyük metinleri belirli algoritmalar kullanarak uzaklık ve kelime anatolojisi tarafından oldukça başarılı olan Gensim kütüphanesinin KeyedVectors modülü ile indirilen eğitilmiş model pythona yüklendi.KeyedVectors modülünde; varlıklar ve vektörler arasında bir eşleşme söz konusudur. Cümlelerde en çok geçen kelimenin işleme alınmasını ile girdiler yani cümlelerdeki kelimeler tam sayılara çevrildi. Keras, genelde tüm bağımsız belgelerin aynı uzunlukta olmasını gerektirir. Fakat cümleler farklı uzunluktadır. Bu sorunu çözmek için, pad_sequences kullanıldı.
 Kerasın sıralı katmanlarından oluşan Sequential modeli, LSTM (Uzun-kısa vadeli hafıza ağları) katmanı da eklenerek  model oluşturuldu. Keras, derin öğrenme modelinin metinsel özeti için bir yol sağlar. Derin öğrenme modelinin metinsel özeti yazdırıldı. Model oluştuktan sonra, veriler %80 eğitim verisi ve %20 test verisi olarak ayrıldı. Model, girdileri ve etiketleri verilerel fit edildi. Sadece X(Girdi) verilerek, Y(Etiket)  tahmin etmesi için predict yapıldı. Gerçek ve tahmin değerleri arasında yer alan ilişkiyi inceleyebilmel için scikit-learn kütüphanesinin classification_report metriği ve karmaşıklık matrisi kullanıldı. 
