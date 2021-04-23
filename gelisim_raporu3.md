@@ -1,4 +1,4 @@
-# BitirmeProjesi
+# Bitirme Projesi
 # DÜZELTMELER
 ## Veriseti Hazırlama :
 
