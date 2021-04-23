@@ -26,10 +26,11 @@ Kerasın sıralı katmanlarından oluşan Sequential modeli, LSTM (Uzun-kısa va
 
 ### Kaynaklar
 - FRANÇOIS, CHOLLET.Deep Learning with Python.f America, 2018
-- Keras. keras.io. Web. 11 Mart 2020.
-- akoksal-Turkish-Word2Vec. github. Web. 9.04.2020
-- Wikipedia. wikipedia. Web 3 Mart 2020.
-- "COVID-19 SÜRECİNDE TWITTER MESAJLARININ DUYGU ANALİZİ". Researchgate. Web. 12 Mart 2020
+- Keras. keras.io. Web. 11 Mart 2021.
+- akoksal-Turkish-Word2Vec. github. Web. 9.04.2021
+- Word Embedding and Word2Vec.towardsdatascience.Web. 8.04.2021
+- Word2vec. wikipedia. Web 3 Mart 2021.
+- "COVID-19 SÜRECİNDE TWITTER MESAJLARININ DUYGU ANALİZİ". Researchgate. Web. 12 Mart 2021
 
 
 
