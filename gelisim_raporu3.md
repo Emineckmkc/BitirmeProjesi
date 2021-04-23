@@ -4,7 +4,7 @@
 
 ### Veri Seti Hazırlama :
 
-Twitter API'si kullanılarak python ile toplanan veriler , etiketlenirken sürekli tekrarlayan tweetler olduğu farkedildi. Tüm tweet metinleri bir dizide tutuldu. Yeni gelen tweet metni bu dizinin içinde yok ise csv dosyasına kaydedildi.Bu sayede benzersiz tweet metinleri elde edildi.
+Twitter API'si kullanılarak python ile toplanan veriler , etiketlenirken sürekli tekrarlayan tweetler olduğu farkedildi. Tüm tweet metinleri bir dizide tutuldu. Yeni gelen tweet metni bu dizinin içinde yok ise csv dosyasına kaydedildi. Bu sayede benzersiz tweet metinleri elde edildi.
  
 ### Veri Ön İşleme :
 
