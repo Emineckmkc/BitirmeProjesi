@@ -35,6 +35,13 @@ Kerasın sıralı katmanlarından oluşan Sequential modeli, LSTM (Uzun-kısa va
 - gensim.radimrehurek. Web. 18.03.2021
 
 ## ZORLUKLAR 
+Öncelikle projede Derin öğrenme kütüphanesi kullanılırken, aktivasyon hatası ile karşılaşıldı.
+![1](https://user-images.githubusercontent.com/55896383/115898572-600cc080-a466-11eb-9c8d-765e6d7dc51f.PNG)
+
+from tensorflow.keras.layers import InputSpec
+from keras import activations, initializers, regularizers, constraints yazılarak sorun çözüldü.
+
+
 
 
 ## ARAÇLAR 
