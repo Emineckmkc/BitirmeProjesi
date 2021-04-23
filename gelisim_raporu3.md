@@ -34,8 +34,8 @@ Kerasın sıralı katmanlarından oluşan Sequential modeli, LSTM (Uzun-kısa va
 - "COVID-19 SÜRECİNDE TWITTER MESAJLARININ DUYGU ANALİZİ". Researchgate. Web. 12 Mart 2021
 - gensim.radimrehurek. Web. 18.03.2021
 
+## ZORLUKLAR 
 
-
-
+## ARAÇLAR 
 Kelimeleri vektör uzayında ifade etmeye çalışan danışmansız ve tahmin temelli bir model olan Wor2vec kullanıldı. 
 Metin madenciliği kelimeler arasında uzaklık durumunu vektörel olarak bulmamıza yarayan algoritmalar bütünüdür. Metin madenciği konusunda oldukça yetenekli ve performanslı, doğal dil işleme için açık kaynaklı bir kütüphane olan Gensim 
