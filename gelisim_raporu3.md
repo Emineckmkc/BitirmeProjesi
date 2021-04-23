@@ -25,6 +25,13 @@ Etiketli verilerin, vektöre dönüştürülmesi gerekir. Toplanan veri setini c
 Kerasın sıralı katmanlarından oluşan Sequential modeli, LSTM (Uzun-kısa vadeli hafıza ağları) katmanı da eklenerek  model oluşturuldu. Keras, derin öğrenme modelinin metinsel özeti için bir yol sağlar. Derin öğrenme modelinin metinsel özeti yazdırıldı. Model oluştuktan sonra, veriler %80 eğitim verisi ve %20 test verisi olarak ayrıldı. Model, girdileri ve etiketleri verilerel fit edildi. Sadece X(Girdi) verilerek, Y(Etiket)  tahmin etmesi için predict yapıldı. Gerçek ve tahmin değerleri arasında yer alan ilişkiyi inceleyebilmel için scikit-learn kütüphanesinin classification_report metriği ve karmaşıklık matrisi kullanıldı. 
 
 ### Kaynaklar
+- FRANÇOIS, CHOLLET.Deep Learning with Python.f America, 2018
+- Keras. keras.io. Web. 11 Mart 2020.
+- akoksal-Turkish-Word2Vec. github. Web. 9.04.2020
+- Wikipedia. wikipedia. Web 3 Mart 2020.
+- "COVID-19 SÜRECİNDE TWITTER MESAJLARININ DUYGU ANALİZİ". Researchgate. Web. 12 Mart 2020
+
+
 
 
 Kelimeleri vektör uzayında ifade etmeye çalışan danışmansız ve tahmin temelli bir model olan Wor2vec kullanıldı. 
