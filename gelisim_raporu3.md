@@ -36,6 +36,6 @@ Kerasın sıralı katmanlarından oluşan Sequential modeli, LSTM (Uzun-kısa va
 
 ## ZORLUKLAR 
 
+
 ## ARAÇLAR 
-Kelimeleri vektör uzayında ifade etmeye çalışan danışmansız ve tahmin temelli bir model olan Wor2vec kullanıldı. 
-Metin madenciliği kelimeler arasında uzaklık durumunu vektörel olarak bulmamıza yarayan algoritmalar bütünüdür. Metin madenciği konusunda oldukça yetenekli ve performanslı, doğal dil işleme için açık kaynaklı bir kütüphane olan Gensim 
+Doğal dil işleme kütüphanesi olan NLTK kullanıldı.Kelimeleri vektör uzayında ifade etmeye çalışan danışmansız ve tahmin temelli bir model olan Wor2vec kullanıldı. Metin madenciliği kelimeler arasında uzaklık durumunu vektörel olarak bulmamıza yarayan algoritmalar bütünüdür. Metin madenciği konusunda oldukça yetenekli ve performanslı, doğal dil işleme için açık kaynaklı bir kütüphane olan Gensim kütüphanesi kullanıldı. Modelleri tanımlamayı ve eğitmeyi çok kolay hale getiren Derin öğrenme kütüphanesi Keras kullanıldı. Veri bilimi ve makine öğrenmesi için en yaygın kullanılan Python paketlerinden Scikit-learn kullanıldı.
