@@ -1,4 +1,4 @@
-# Bitirme Projesi
+# TÜRKÇE METİNLERDEN DUYGU ANALİZİ
 # DÜZELTMELER
 ## Veriseti Hazırlama :
 
